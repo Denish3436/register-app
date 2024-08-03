@@ -121,11 +121,11 @@ This project serves as a comprehensive example of how to leverage contemporary D
    - Deploy ArgoCD on your Kubernetes cluster.
    - Configure ArgoCD to automate continuous deployment of your application.
 
-##Notes
+## Notes
 This project was developed to demonstrate my skills in deploying scalable, secure applications using modern DevOps practices. It showcases my proficiency with Kubernetes, CI/CD pipelines, and cloud-native technologies, and is intended to highlight my capabilities for job applications and career opportunities.
 
-##Contact
+## Contact
 If you have any questions or would like to discuss this project further, feel free to reach out to me on LinkedIn or via email.
 
-##Thank you for checking out my project!
+**Thank you for checking out my project!**
 
