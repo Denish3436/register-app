@@ -69,63 +69,7 @@ This project serves as a comprehensive example of how to leverage contemporary D
 ├── pom.xml
 ```
 
-## Getting Started
 
-### Prerequisites
 
-- Docker
-- Kubernetes
-- Amazon EKS cluster
-- Jenkins
-- SonarQube
-- ArgoCD
-- Trivy
-- Maven
-- GitHub account
 
-### Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Denish3436/project-1.git
-   cd project-1
-   ```
-
-2. **Build the Application**
-   ```bash
-   mvn clean install
-   ```
-
-3. **Build and Push Docker Image**
-   ```bash
-   docker build -t your-dockerhub-username/registration-app:latest .
-   docker push your-dockerhub-username/registration-app:latest
-   ```
-
-4. **Deploy to Amazon EKS**
-   - Apply Kubernetes manifests
-   ```bash
-   kubectl apply -f k8s/deployment.yaml
-   kubectl apply -f k8s/service.yaml
-   ```
-
-5. **Set Up Jenkins Pipeline**
-   - Configure your Jenkinsfile in your Jenkins server.
-   - Set up the pipeline to automate the build, test, and deployment stages.
-
-6. **Integrate SonarQube**
-   - Configure SonarQube to analyze code quality.
-   - Integrate SonarQube with Jenkins for continuous code quality checks.
-
-7. **Integrate ArgoCD**
-   - Deploy ArgoCD on your Kubernetes cluster.
-   - Configure ArgoCD to automate continuous deployment of your application.
-
-## Notes
-This project was developed to demonstrate my skills in deploying scalable, secure applications using modern DevOps practices. It showcases my proficiency with Kubernetes, CI/CD pipelines, and cloud-native technologies, and is intended to highlight my capabilities for job applications and career opportunities.
-
-## Contact
-If you have any questions or would like to discuss this project further, feel free to reach out to me on LinkedIn or via email.
-
-**Thank you for checking out my project!**
 
